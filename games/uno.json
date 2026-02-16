@@ -1,0 +1,25 @@
+{
+  "catalogSlug": "uno",
+  "catalogVersion": 1,
+  "version": 1,
+  "name": "Uno",
+  "description": "Classic Uno - winner of each round scores points from cards left in opponents' hands. First to 500 wins.",
+  "icon": "🟥",
+  "minPlayers": 2,
+  "maxPlayers": 10,
+  "scoringMethod": "sum",
+  "allowNegativeScores": false,
+  "cardPointValues": [
+    { "cardName": "Number Cards (1-9)", "pointValue": 0, "description": "Face value" },
+    { "cardName": "Skip", "pointValue": 20 },
+    { "cardName": "Reverse", "pointValue": 20 },
+    { "cardName": "Draw Two", "pointValue": 20 },
+    { "cardName": "Wild", "pointValue": 50 },
+    { "cardName": "Wild Draw Four", "pointValue": 50 }
+  ],
+  "roundEndTrigger": "manual",
+  "winCondition": {
+    "type": "first_to_target",
+    "targetScore": 500
+  }
+}

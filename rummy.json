@@ -1,0 +1,24 @@
+{
+  "catalogSlug": "rummy",
+  "catalogVersion": 1,
+  "version": 1,
+  "name": "Rummy",
+  "description": "Classic Rummy - first player to reach the target score wins.",
+  "icon": "🃏",
+  "minPlayers": 2,
+  "maxPlayers": 6,
+  "scoringMethod": "sum",
+  "allowNegativeScores": true,
+  "cardPointValues": [
+    { "cardName": "Ace", "pointValue": 1, "description": "Or 11 if used as high" },
+    { "cardName": "Number Cards (2-10)", "pointValue": 0, "description": "Face value" },
+    { "cardName": "Jack", "pointValue": 10 },
+    { "cardName": "Queen", "pointValue": 10 },
+    { "cardName": "King", "pointValue": 10 }
+  ],
+  "roundEndTrigger": "manual",
+  "winCondition": {
+    "type": "first_to_target",
+    "targetScore": 500
+  }
+}

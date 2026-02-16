@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "updatedAt": "2026-02-16T00:00:00Z",
+  "games": [
+    {
+      "slug": "uno",
+      "name": "Uno",
+      "icon": "🟥",
+      "description": "Classic Uno - winner of each round scores points from cards left in opponents' hands. First to 500 wins.",
+      "minPlayers": 2,
+      "maxPlayers": 10,
+      "scoringMethod": "sum",
+      "version": 1,
+      "tags": ["classic", "family", "cards"]
+    },
+    {
+      "slug": "hearts",
+      "name": "Hearts",
+      "icon": "♥️",
+      "description": "Avoid taking hearts and the Queen of Spades. Game ends when someone reaches 100. Lowest score wins.",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "scoringMethod": "lowest_wins",
+      "version": 1,
+      "tags": ["classic", "trick-taking"]
+    },
+    {
+      "slug": "rummy",
+      "name": "Rummy",
+      "icon": "🃏",
+      "description": "Classic Rummy - first player to reach the target score wins.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "scoringMethod": "sum",
+      "version": 1,
+      "tags": ["classic", "matching"]
+    },
+    {
+      "slug": "phase10",
+      "name": "Phase 10",
+      "icon": "🔟",
+      "description": "Complete 10 phases in order. Lowest total score among players who complete all phases wins.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "scoringMethod": "lowest_wins",
+      "version": 1,
+      "tags": ["classic", "sequential"]
+    },
+    {
+      "slug": "flip7",
+      "name": "Flip 7",
+      "icon": "7️⃣",
+      "description": "Players flip cards trying to get closest to 7 without going over. Lowest total score after all rounds wins.",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "scoringMethod": "lowest_wins",
+      "version": 1,
+      "tags": ["quick", "luck"]
+    }
+  ]
+}
