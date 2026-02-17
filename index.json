@@ -56,6 +56,16 @@
       "scoringMethod": "sum",
       "version": 3,
       "tags": ["quick", "luck"]
-    }
+    }{
+      "slug": "unoflip",
+      "name": "Uno Flip",
+      "icon": "🟥",
+      "description": "Uno Flip - Like Uno, but deck and cards are double‑sided.  Winner of each round scores points from cards left in opponents' hands. First to 500 wins.",
+      "minPlayers": 2,
+      "maxPlayers": 10,
+      "scoringMethod": "sum",
+      "version": 1,
+      "tags": ["classic", "family", "cards"]
+    },
   ]
 }
