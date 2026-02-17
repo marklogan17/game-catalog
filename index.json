@@ -10,7 +10,7 @@
       "minPlayers": 2,
       "maxPlayers": 10,
       "scoringMethod": "sum",
-      "version": 1,
+      "version": 2,
       "tags": ["classic", "family", "cards"]
     },
     {
