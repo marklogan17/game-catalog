@@ -50,11 +50,11 @@
       "slug": "flip7",
       "name": "Flip 7",
       "icon": "7️⃣",
-      "description": "Players flip cards trying to getting a pair.  7 Unique cards gets a bonus. First to 200 wins.",
+      "description": "Players flip cards trying to avoid getting a pair.  7 Unique cards gets a bonus. First to 200 wins.",
       "minPlayers": 2,
       "maxPlayers": 8,
       "scoringMethod": "sum",
-      "version": 1,
+      "version": 2,
       "tags": ["quick", "luck"]
     }
   ]
