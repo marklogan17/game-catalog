@@ -54,7 +54,7 @@
       "minPlayers": 2,
       "maxPlayers": 8,
       "scoringMethod": "sum",
-      "version": 1,
+      "version": 3,
       "tags": ["quick", "luck"]
     }
   ]
