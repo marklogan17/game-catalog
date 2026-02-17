@@ -1,9 +1,9 @@
 {
   "catalogSlug": "uno",
-  "catalogVersion": 2,
-  "version": 2,
+  "catalogVersion": 3,
+  "version": 3,
   "name": "Uno",
-  "description": "Test for Tim: Classic Uno - winner of each round scores points from cards left in opponents' hands. First to 500 wins.",
+  "description": "Classic Uno - winner of each round scores points from cards left in opponents' hands. First to 500 wins.",
   "icon": "🟥",
   "minPlayers": 2,
   "maxPlayers": 10,
