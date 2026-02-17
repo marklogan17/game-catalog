@@ -1,7 +1,7 @@
 {
   "catalogSlug": "flip7",
-  "catalogVersion": 2,
-  "version": 2,
+  "catalogVersion": 1,
+  "version": 1,
   "name": "Flip 7",
   "description": "Players flip cards trying to avoid getting a pair.  7 Unique cards gets a bonus. First to 200 wins.",
   "icon": "7️⃣",
