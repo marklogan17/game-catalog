@@ -17,11 +17,11 @@
       "slug": "hearts",
       "name": "Hearts",
       "icon": "♥️",
-      "description": "Avoid taking hearts and the Queen of Spades. Game ends when someone reaches 100. Lowest score wins.",
+      "description": "Tim Test: Avoid taking hearts and the Queen of Spades. Game ends when someone reaches 100. Lowest score wins.",
       "minPlayers": 3,
       "maxPlayers": 6,
       "scoringMethod": "lowest_wins",
-      "version": 1,
+      "version": 2,
       "tags": ["classic", "trick-taking"]
     },
     {
