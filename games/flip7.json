@@ -10,7 +10,6 @@
   "scoringMethod": "sum",
   "allowNegativeScores": false,
   "roundEndTrigger": "manual",
-  "fixedRoundCount": 7,
   "winCondition": {
     "type": "first_to_target",
     "targetScore": 200
