@@ -50,10 +50,10 @@
       "slug": "flip7",
       "name": "Flip 7",
       "icon": "7️⃣",
-      "description": "Players flip cards trying to get closest to 7 without going over. Lowest total score after all rounds wins.",
+      "description": "Players flip cards trying to getting a pair.  7 Unique cards gets a bonus. First to 200 wins.",
       "minPlayers": 2,
       "maxPlayers": 8,
-      "scoringMethod": "lowest_wins",
+      "scoringMethod": "sum",
       "version": 1,
       "tags": ["quick", "luck"]
     }
