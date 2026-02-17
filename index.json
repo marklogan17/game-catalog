@@ -56,7 +56,8 @@
       "scoringMethod": "sum",
       "version": 3,
       "tags": ["quick", "luck"]
-    }{
+    },
+    {
       "slug": "unoflip",
       "name": "Uno Flip",
       "icon": "🟥",
