@@ -1,17 +1,18 @@
 {
   "catalogSlug": "flip7",
-  "catalogVersion": 1,
-  "version": 1,
+  "catalogVersion": 2,
+  "version": 2,
   "name": "Flip 7",
-  "description": "Players flip cards trying to get closest to 7 without going over. Lowest total score after all rounds wins.",
+  "description": "Players flip cards trying to getting a pair.  7 Unique cards gets a bonus. First to 200 wins.",
   "icon": "7️⃣",
   "minPlayers": 2,
   "maxPlayers": 8,
-  "scoringMethod": "lowest_wins",
+  "scoringMethod": "sum",
   "allowNegativeScores": false,
-  "roundEndTrigger": "fixed_rounds",
+  "roundEndTrigger": "manual",
   "fixedRoundCount": 7,
   "winCondition": {
-    "type": "lowest_total"
+    "type": "first_to_target",
+    "targetScore": 200
   }
 }
