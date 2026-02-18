@@ -14,6 +14,17 @@
       "tags": ["classic", "family", "cards"]
     },
     {
+      "slug": "unofull",
+      "name": "Uno (Full)",
+      "icon": "🟥",
+      "description": "Classic Uno - detailed scoring - winner of each round scores points from cards left in opponents' hands. First to 500 wins.",
+      "minPlayers": 2,
+      "maxPlayers": 10,
+      "scoringMethod": "sum",
+      "version": 1,
+      "tags": ["classic", "family", "cards"]
+    },
+    {
       "slug": "hearts",
       "name": "Hearts",
       "icon": "♥️",
@@ -43,7 +54,7 @@
       "minPlayers": 2,
       "maxPlayers": 6,
       "scoringMethod": "lowest_wins",
-      "version": 1,
+      "version": 2,
       "tags": ["classic", "sequential"]
     },
     {
