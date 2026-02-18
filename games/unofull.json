@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "name": "UNO (Full)",
+  "description": "Classic Uno - detailed scoring - winner of each round scores points from cards left in opponents' hands. First to 500 wins.",
+  "icon": "🟥",
+  "minPlayers": 2,
+  "maxPlayers": 10,
+  "scoringMethod": "sum",
+  "allowNegativeScores": false,
+  "roundEndTrigger": "manual",
+  "roundInputMode": "card_count",
+  "cardPointValues": [
+    {
+      "cardName": "Number Cards (1-9)",
+      "pointValue": 0,
+      "description": "Face value"
+    },
+    {
+      "cardName": "Action Cards",
+      "pointValue": 20
+    },
+    {
+      "cardName": "Wild Cards",
+      "pointValue": 50
+    }
+  ],
+  "winCondition": {
+    "type": "first_to_target",
+    "targetScore": 500
+  }
+}
