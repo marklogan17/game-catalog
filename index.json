@@ -54,7 +54,7 @@
       "minPlayers": 2,
       "maxPlayers": 6,
       "scoringMethod": "lowest_wins",
-      "version": 3,
+      "version": 4,
       "tags": ["classic", "sequential"]
     },
     {
