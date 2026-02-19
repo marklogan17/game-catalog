@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "catalogVersion": 3,
+  "version": 4,
+  "catalogVersion": 4,
   "name": "Phase 10",
   "description": "Complete 10 phases in order. Lowest total score among players who complete all phases wins.",
   "icon": "🔟",
