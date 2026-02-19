@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "catalogVersion": 3,
+  "version": 4,
+  "catalogVersion": 4,
   "name": "Phase 10",
   "description": "Complete 10 phases in order. Lowest total score among players who complete all phases wins.",
   "icon": "🔟",
@@ -9,7 +9,7 @@
   "scoringMethod": "lowest_wins",
   "allowNegativeScores": false,
   "roundEndTrigger": "manual",
-  "roundInputMode": "phase_tracking",
+  "roundInputMode": "card_count",
   "cardPointValues": [
     {
       "cardName": "Cards 1-9",
@@ -33,6 +33,6 @@
     "startingPhase": 1
   },
   "winCondition": {
-    "type": "lowest_total"
+    "type": "phase_complete"
   }
 }
