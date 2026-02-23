@@ -82,8 +82,8 @@
     {
       "slug": "skipbo",
       "name": "Skip-Bo",
-      "icon": "🟥",
-      "description": "Uno Flip - Like Uno, but deck and cards are double‑sided.  Winner of each round scores points from cards left in opponents' hands. First to 500 wins.",
+      "icon": "🔢",
+      "description": "Eliminate your cards. First to 500 points wins.",
       "minPlayers": 2,
       "maxPlayers": 6,
       "scoringMethod": "sum",
