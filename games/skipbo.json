@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "name": "Skip-Bo",
+  "description": "Eliminate your cards. First to 500 points wins.",
+  "minPlayers": 2,
+  "maxPlayers": 6,
+  "scoringMethod": "sum",
+  "allowNegativeScores": false,
+  "roundEndTrigger": "manual",
+  "roundInputMode": "card_count",
+  "cardPointValues": [
+    {
+      "cardName": "Opponent’s Cards",
+      "pointValue": 5
+    },
+    {
+      "cardName": "Round Winner",
+      "pointValue": 25
+    }
+  ],
+  "winCondition": {
+    "type": "first_to_target",
+    "targetScore": 500
+  }
+}
