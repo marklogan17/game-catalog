@@ -3,7 +3,7 @@
   "catalogVersion": 2,
   "version": 2,
   "name": "Racko",
-  "description": "Sequential-matching card game for 2-4 players",
+  "description": "Sequential-matching card game for 2-6 players",
   "icon": "🔢",
   "minPlayers": 2,
   "maxPlayers": 6,
