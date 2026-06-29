@@ -1,12 +1,13 @@
 {
-  "catalogSlug": "rack",
-  "catalogVersion": 1,
-  "version": 1,
+  "catalogSlug": "racko",
+  "catalogVersion": 2,
+  "version": 2,
   "name": "Racko",
   "description": "Sequential-matching card game for 2-4 players",
   "icon": "🔢",
   "minPlayers": 2,
   "maxPlayers": 6,
+  "scoringMethod": "sum",
   "allowNegativeScores": false,
   "roundEndTrigger": "manual",
   "winCondition": {
