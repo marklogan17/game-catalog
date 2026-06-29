@@ -94,11 +94,11 @@
       "slug": "racko",
       "name": "Racko",
       "icon": "🔢",
-      "description": "Sequential-matching card game for 2-4 players",
+      "description": "Sequential-matching card game for 2-6 players",
       "minPlayers": 2,
       "maxPlayers": 6,
       "scoringMethod": "sum",
-      "version": 1,
+      "version": 2,
       "tags": ["classic", "family", "cards", "sequential"]
     }
   ]
