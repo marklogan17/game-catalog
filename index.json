@@ -94,7 +94,7 @@
       "slug": "racko",
       "name": "Racko",
       "icon": "🔢",
-      "description": "ESequential-matching card game for 2-4 players",
+      "description": "Sequential-matching card game for 2-4 players",
       "minPlayers": 2,
       "maxPlayers": 6,
       "scoringMethod": "sum",
